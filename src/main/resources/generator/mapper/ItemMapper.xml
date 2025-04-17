@@ -6,6 +6,33 @@
 
 
     <select id="getElecBill" resultType="org.com.generator.domain.vo.ElecBillVO">
-        select * from item
+        SELECT *
+        FROM item h
+        WHERE h.category = '拉杆箱'
+          AND id IN (
+                     '317578',
+                     '317580',
+                     '546872',
+                     '561178',
+                     '577967',
+                     '584382',
+                     '584387',
+                     '584391',
+                     '584392',
+                     '584394',
+                     '613357',
+                     '613358',
+                     '613359',
+                     '613360',
+                     '651742',
+                     '722667',
+                     '722681',
+                     '753999',
+                     '754013',
+                     '754015'
+            )
+        ORDER BY id
     </select>
+
+
 </mapper>

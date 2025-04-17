@@ -1,7 +1,6 @@
 package org.com.generator.mapper;
 
 import org.apache.ibatis.annotations.Mapper;
-import org.apache.ibatis.annotations.Select;
 import org.com.generator.domain.vo.ElecBillVO;
 import org.com.generator.domain.ao.ElecBillAO;
 
