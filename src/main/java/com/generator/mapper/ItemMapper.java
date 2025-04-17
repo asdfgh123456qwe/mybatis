@@ -1,8 +1,8 @@
-package org.com.generator.mapper;
+package com.generator.mapper;
 
+import com.generator.domain.ao.ElecBillAO;
+import com.generator.domain.vo.ElecBillVO;
 import org.apache.ibatis.annotations.Mapper;
-import org.com.generator.domain.vo.ElecBillVO;
-import org.com.generator.domain.ao.ElecBillAO;
 
 import java.util.List;
 

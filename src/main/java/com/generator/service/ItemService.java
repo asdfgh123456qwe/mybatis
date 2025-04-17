@@ -1,9 +1,7 @@
-package org.com.generator.service;
+package com.generator.service;
 
-import com.baomidou.mybatisplus.extension.service.IService;
-import org.com.generator.domain.vo.ElecBillVO;
-import org.com.generator.domain.ao.ElecBillAO;
-import org.springframework.stereotype.Service;
+import com.generator.domain.ao.ElecBillAO;
+import com.generator.domain.vo.ElecBillVO;
 
 import java.util.List;
 

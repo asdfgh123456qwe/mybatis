@@ -2,10 +2,10 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="org.com.generator.mapper.ItemMapper">
+<mapper namespace="com.generator.mapper.ItemMapper">
 
 
-    <select id="getElecBill" resultType="org.com.generator.domain.vo.ElecBillVO">
+    <select id="getElecBill" resultType="com.generator.domain.vo.ElecBillVO">
         SELECT *
         FROM item h
         WHERE h.category = '拉杆箱'

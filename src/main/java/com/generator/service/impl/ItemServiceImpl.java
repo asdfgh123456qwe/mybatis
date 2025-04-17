@@ -1,14 +1,12 @@
-package org.com.generator.service.impl;
+package com.generator.service.impl;
 
-import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import org.com.generator.domain.vo.ElecBillVO;
-import org.com.generator.mapper.ItemMapper;
-import org.com.generator.service.ItemService;
-import org.com.generator.domain.ao.ElecBillAO;
+import com.generator.domain.ao.ElecBillAO;
+import com.generator.domain.vo.ElecBillVO;
+import com.generator.mapper.ItemMapper;
+import com.generator.service.ItemService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
 import java.util.List;
 
 /**
