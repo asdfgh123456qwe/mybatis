@@ -32,7 +32,7 @@
                      '754015'
             )
         ORDER BY id
-        limit
+        limit 20
     </select>
 
 
