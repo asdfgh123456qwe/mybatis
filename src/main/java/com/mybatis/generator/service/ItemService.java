@@ -1,7 +1,7 @@
-package com.generator.service;
+package com.mybatis.generator.service;
 
-import com.generator.domain.ao.ElecBillAO;
-import com.generator.domain.vo.ElecBillVO;
+import com.mybatis.generator.domain.ao.ElecBillAO;
+import com.mybatis.generator.domain.vo.ElecBillVO;
 
 import java.util.List;
 

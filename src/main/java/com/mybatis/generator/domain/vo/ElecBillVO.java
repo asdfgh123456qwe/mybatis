@@ -1,4 +1,4 @@
-package com.generator.domain.vo;
+package com.mybatis.generator.domain.vo;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

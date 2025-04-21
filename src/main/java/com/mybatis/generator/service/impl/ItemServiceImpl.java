@@ -1,9 +1,9 @@
-package com.generator.service.impl;
+package com.mybatis.generator.service.impl;
 
-import com.generator.domain.ao.ElecBillAO;
-import com.generator.domain.vo.ElecBillVO;
-import com.generator.mapper.ItemMapper;
-import com.generator.service.ItemService;
+import com.mybatis.generator.domain.ao.ElecBillAO;
+import com.mybatis.generator.domain.vo.ElecBillVO;
+import com.mybatis.generator.mapper.ItemMapper;
+import com.mybatis.generator.service.ItemService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

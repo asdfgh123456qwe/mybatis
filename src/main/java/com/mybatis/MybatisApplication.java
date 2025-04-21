@@ -1,13 +1,13 @@
-package com;
+package com.mybatis;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class MybatisPlusApplication {
+public class MybatisApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(MybatisPlusApplication.class, args);
+        SpringApplication.run(MybatisApplication.class, args);
     }
 
 }

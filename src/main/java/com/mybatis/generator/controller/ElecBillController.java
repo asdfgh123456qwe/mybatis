@@ -1,9 +1,9 @@
-package com.generator.controller;
+package com.mybatis.generator.controller;
 
 
-import com.generator.domain.ao.ElecBillAO;
-import com.generator.domain.vo.ElecBillVO;
-import com.generator.service.ItemService;
+import com.mybatis.generator.domain.ao.ElecBillAO;
+import com.mybatis.generator.domain.vo.ElecBillVO;
+import com.mybatis.generator.service.ItemService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
